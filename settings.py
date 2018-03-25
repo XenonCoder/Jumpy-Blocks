@@ -14,8 +14,8 @@
 
 # options/settings
 TITLE = "Jumpy Blocks"
-WIDTH = 360
-HEIGHT = 480
+WIDTH = 480
+HEIGHT = 600
 FPS = 60
 
 # Player properties
