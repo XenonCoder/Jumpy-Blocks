@@ -29,6 +29,11 @@ class Player(pg.sprite.Sprite):
         self.vel = vec(0, 0)
         self.acc = vec(0, 0)
 
+    def jump(self):
+        # jump only if standing on a platform
+        self.vel.y = -12
+
+
     def update(self):
         self.acc = vec(0, 0.5)
         keys = pg.key.get_pressed()
